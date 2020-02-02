@@ -13,6 +13,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #000;
+  color: #fff;
 }
 
 .logo {
@@ -22,7 +23,7 @@ body {
 }
 
 .links {
-  margin: 20px auto;
+  margin: 10px auto;
 }
 
 .link {
@@ -31,4 +32,58 @@ body {
 
 .navbar {
     background:transparent;
+}
+
+.content {
+  padding: 20px;
+  padding-bottom: 66px;
+  overflow: auto;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.quote {
+  margin: 20px auto;
+  color: #fff;
+  width: 300px;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.quote li {
+  text-align: center;
+  font-size: 25px;
+}
+
+.text {
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+  font-family: 'Garamond', serif;
+}
+
+.profile-pic {
+  margin: 0 auto;
+  width: 250px;
+}
+
+.wide {
+  width: 600px;
+}
+
+.picture-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.row-item {
+  flex: 1;
+  height: 100%;
 }
