@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #D139CA;
+}
+
+body {
+  background-image: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-color: #000;
+}
+
+.logo {
+  background-color: var(--main-color);
+  border-radius: 15px; 
+  width: 50px;
+}
+
+.links {
+  margin: 20px auto;
+}
+
+.link {
+  height: 30px;
+}
+
+.navbar {
+    background:transparent;
+}
